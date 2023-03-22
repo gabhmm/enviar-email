@@ -21,3 +21,5 @@ msg.set_content('Favor buscar a carga que acabou de chegar na portaria')
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login(EMAIL_ADRESS, EMAIL_PASSWORD)
     smtp.send_message(msg)
+    
+    # Devido as novas politicas do Google, é preciso gerar uma senha para apps terceiros.
